@@ -27,7 +27,7 @@ jobs:
             whoami
             ls -al
             su
-            1q2w#ITKr@t0s
+              1q2w#ITKr@t0s
             cd bwc-campaign-landing-page/
             git status
             

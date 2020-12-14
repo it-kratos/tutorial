@@ -39,6 +39,8 @@ jobs:
         with:
           command: ls -a
           host: ${{ secrets.HOST }}
+          port: ${{ secrets.PORT }}
+          key: ${{ secrets.PRIVATE_KEY}}
           username: ${{ secrets.USERNAME }}
           passphrase: ${{ secrets.PASSWORD }}
           privateKey: ${{ secrets.PRIVATE_KEY}}

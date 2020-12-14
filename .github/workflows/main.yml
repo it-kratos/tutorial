@@ -23,4 +23,11 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: whoami
+          script: |
+            whoami
+            ls -al
+            cd bwc-campaign-landing-page/
+            sudo -s 
+            P@ssw0rd
+            git status
+            
